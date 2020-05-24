@@ -1,0 +1,18 @@
+{
+  "name": "covid19_estimator",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "preshyjones",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jsontoxml": "^1.0.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.4"
+  }
+}
