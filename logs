@@ -1,0 +1,5 @@
+GET /api/v1/on-covid-19/xml/logs 200 2 - 5.489 ms
+GET /favicon.ico 404 150 - 2.627 ms
+GET /api/v1/on-covid-19/xml/logs 200 90 - 2.365 ms
+GET /api/v1/on-covid-19/xml/logs 200 142 - 2.357 ms
+GET /api/v1/on-covid-19/xml/logs 200 195 - 2.080 ms

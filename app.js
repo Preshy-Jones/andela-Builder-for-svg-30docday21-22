@@ -35,7 +35,7 @@ app.post('/api/v1/on-covid-19/xml', (req, res) => {
     res.end(jsonxml(covid19ImpactEstimator(req.body)))
 });
 
-app.get('/logs', (req, res) => {
+app.get('/api/v1/on-covid-19/xml/logs', (req, res) => {
     var readStream = fs.createReadStream('logs', 'utf8')
 
     // readStream.on('data', function (chunk) {
@@ -54,19 +54,19 @@ app.get('/logs', (req, res) => {
 
 
 
-let input_data = {
-    region: {
-        name: "Africa",
-        avgAge: 19.7,
-        avgDailyIncomeInUSD: 5,
-        avgDailyIncomePopulation: 0.71
-    },
-    periodType: "days",
-    timeToElapse: 58,
-    reportedCases: 674,
-    population: 66622705,
-    totalHospitalBeds: 1380614
-}
+// let input_data = {
+//     region: {
+//         name: "Africa",
+//         avgAge: 19.7,
+//         avgDailyIncomeInUSD: 5,
+//         avgDailyIncomePopulation: 0.71
+//     },
+//     periodType: "days",
+//     timeToElapse: 58,
+//     reportedCases: 674,
+//     population: 66622705,
+//     totalHospitalBeds: 1380614
+// }
 
 //console.log(covid19ImpactEstimator(input_data));
 
